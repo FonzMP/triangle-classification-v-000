@@ -9,8 +9,9 @@ class Triangle
     @length_three = length_three
   end
 
-  def checker?
+  def legal?
     if @length_one + @length_two > @length_three
+      true
 
   end
 
