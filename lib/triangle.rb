@@ -11,7 +11,7 @@ class Triangle
 
   def legal?
     if ((@length_one + @length_two) > @length_three) && ((@length_one + @length_three) > @length_two) && ((@length_two + @length_three) > @length_one)
-      false
+      true
     else
       true
     end
