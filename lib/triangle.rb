@@ -10,7 +10,7 @@ class Triangle
   end
 
   def legal
-    if !((@length_one + @length_two) > @length_three) && !((@length_one + @length_three) > @length_two) && !((@length_two + @length_three) > @length_one)
+    if ((@length_one + @length_two) > @length_three) && ((@length_one + @length_three) > @length_two) && ((@length_two + @length_three) > @length_one)
       true
     else
       false
