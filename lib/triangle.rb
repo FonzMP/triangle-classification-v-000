@@ -10,9 +10,7 @@ class Triangle
   end
 
   def checker?
-    if @length_one > @length_two && @length_two > @length_three
-      largest = @length_one
-      smallest = @length_two
+    if @length_one + @length_two > @length_three
 
   end
 
