@@ -9,4 +9,8 @@ class Triangle
     @length_three = length_three
   end
 
+  def kind
+
+  end
+
 end
