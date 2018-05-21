@@ -9,7 +9,7 @@ class Triangle
     @length_three = length_three
   end
 
-  def kind
+  def kind(traingle)
     if @length_one > 0 && @length_two > 0 && @length_three > 0
       if @length_one == @length_two && @length_two == @length_three
         :equilateral
