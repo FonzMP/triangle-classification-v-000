@@ -15,6 +15,8 @@ class Triangle
         :equilateral
       elsif (@length_one == @length_two && @length_two != @length_three) || (@length_one == @length_three && @length_two != @length_three) || (@length_two == @length_three && @length_one != @length_two)
         :isosceles
+      else
+        :scalene
       end
     else
       raise TriangleError
