@@ -12,6 +12,9 @@ class Triangle
   def kind
     if @length_one > 0 && @length_two > 0 && @length_three > 0
 
+    else
+      raise TriangleError
+
     end
   end
 
