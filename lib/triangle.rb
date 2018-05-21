@@ -11,6 +11,7 @@ class Triangle
 
   def kind
     if @length_one == @length_two && @length_two == @length_one
+      :equilaterial
   end
 
 end
