@@ -14,6 +14,7 @@ class Triangle
       if @length_one == @length_two && @length_two == @length_three
         :equilateral
       elsif (@length_one == @length_two && @length_two != @length_three) || (@length_one == @length_three && @length_two != @length_three)
+        :isosceles
       end
     else
       raise TriangleError
